@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+.header-container{
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: white;
+}
+.logo{
+    width: 100px;
+    
+}
+.logoimg{
+    width: 80px;
+    height: 3rem;
+}
+.navbar{
+    margin-left: 25%;
+    /* border: 2px black solid; */
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    font-size: 18px;
+}
+.navbar p{
+    padding: 5px 15px ;
+}
+.navbar p a{
+    text-decoration: none;
+}
+.icon{
+    width: 25%;
+    margin-right: 2%;
+}
+.icon i,img{
+    float: right;
+    width: 20px;
+    margin-right: 20px;
+}
+.blog-container{
+    height: 30vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-image: url("https://media.istockphoto.com/id/1299389385/photo/vintage-white-paper-texture.webp?b=1&s=170667a&w=0&k=20&c=VGbR7B--al8Emh06LPo-7DLCu5PTK8v3Re0JTZk6GhA=");
+}
+.blog-container p {
+    width: 60px;
+}
+.blog-container p a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.outer-container{
+    min-height: 80vh;
+    /* border: 2px solid black */
+}
+.inner-container{
+    width: 80%;
+    height: 45vh;
+    margin-left: 10%;
+    /* background: pink; */
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.icfirst{
+    margin-top: 5%;
+}
+.icsecond{
+    /* margin-bottom: 5%; */
+}
+.card{
+    /* border: 2px solid gray; */
+    width: 32%;
+    height: 40vh;
+}
+.card img{
+    width: 90%;
+    height: 28vh;
+    border-radius: 5px;
+}
+.sub-container{
+    margin: 8%;
+}
+.date{
+    width: 55px;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 210px;
+    background: rgb(69, 190, 211);
+}
+.addBl {
+    margin-bottom: 60px;
+    
+}
+/* .addBl h2 {
+    margin-left: 30px;
+} */
+.adco {
+    color: rgb(15, 192, 201);
+    font-size: 23px;
+}
+.comment{
+    display: block;
+    margin-left: 25%;
+    margin-top: -30px;
+}
+.data{
+    margin-top: 20px;
+}
+.sub-container a{
+    text-decoration: none;
+    color: rgb(97, 94, 94);
+    margin-left: 10%;
+}
+.option-bar{
+    height: 5vh;
+    padding: 8px;
+    margin-bottom: 3%;
+}
+.option-bar span{
+    margin-left: 47%;
+}
+.option-bar span button{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background: white;
+    border: 1px rgb(7, 7, 7) solid;
+}
+.option-bar span button:hover{
+    background-color: rgb(39, 122, 128);
+}
+.foot {
+    background-color: black;
+    height: 25rem;
+    color: white;
+}
+.content {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.align {
+    width: 20%;
+    height: 30vh;
+    /* border: 2px solid blue; */
+    margin-top:5%;
+}
+.align ul{
+    margin-top: 5%;
+}
+.align ul li{
+    list-style: none;
+    margin-top: 3%;
+}
+.align ul li a{
+    text-decoration: none;
+    color: white;
+}
+.dApp {
+    height: 3rem;
+    width: 50%;
+    border: 2px solid grey;
+}
+.contact{
+    margin-left: 10%;
+   
+}
+.addcol {
+    color:teal;
+}
+.links{
+    float: right;
+    margin-right: 10%;
+}
+.links a{
+    padding: 5px 10px ;
+    text-decoration: none;
+    color: white
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
